@@ -1,9 +1,10 @@
-import React from 'react'
-import style from './Navbar.module.css'
+import React from "react";
+import style from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
     <div className={style.container}>
+      <h2 className={style.title}>Main title</h2>
       <h2 className={style.title}>Main title</h2>
       <h2 className={style.title}>Main title</h2>
       <p>
@@ -12,7 +13,7 @@ const Navbar = () => {
         perspiciatis ratione vitae eos!
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
